@@ -1,7 +1,7 @@
 // nav logic (start)
 // --- animation (start)
 $(window).scroll(function () {
-  console.log($(window).scrollTop()) // проверка работы скролла
+  //console.log($(window).scrollTop()) // проверка работы скролла
   if ($(window).scrollTop() > 20) {
     $('nav.navbar.navbar-toggleable-md.navbar-light').addClass('fixed-top')
     $('nav').css({
@@ -54,3 +54,16 @@ $('.cherryBlocks').mouseout(function () {
   })
 })
 // cherryProjects logic (end)
+
+$(window).scroll(function () {
+  if ($(window).scrollTop() > 800){
+    $('#btnGoForward').show()
+  } else {
+    $('#btnGoForward').hide()
+  }
+ })
+
+$('#btnGoForward').click(function () {
+  $(window).scrollTop(0);
+})
+
