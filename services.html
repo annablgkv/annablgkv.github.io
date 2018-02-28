@@ -1,137 +1,693 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Services</title>
-  <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
-    crossorigin="anonymous">
-  <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- fa 5 -->
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<!-- animate.css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<!-- main style -->
   <link rel="stylesheet" href="./css/main.css">
+  <title>Services</title>
+	<!-- favicon -->
+	<link rel="icon" type="image/png" href="./img/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="./img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="./img/favicon.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="./img/favicon.png" sizes="128x128">	
 </head>
-
 <body>
-<nav class="navbar navbar-toggleable-md navbar-light">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="/">
-    <img src="./img/logo.png">
-  </a>
-  <div class="collapse navbar-collapse menuMain" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link" href="/">Home
-        <span class="sr-only">(current)</span>
-      </a>
-      <a class="nav-item nav-link" href="/about.html">About us</a>
-      <a class="nav-item nav-link active" href="/services.html">Services</a>
-      <a class="nav-item nav-link" href="/cases.html">Cases</a>
-      <a class="nav-item nav-link" href="/news.html">News</a>      
-      <a class="nav-item nav-link" href="/contact.html">Contacts</a>
-      <li class="nav-item dropdown">
-        <a class="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Pages
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="/404.html">404</a>
-          <a class="dropdown-item" href="/moreNeed.html">News Style 1</a>
-          <a class="dropdown-item" href="/pageFood.html">News Style 2</a>     
-        </div>
-      </li>
+
+
+	<!-- block Mobi Menu (start) -->
+	<div id="mobiMenu" class="d-block d-xl-none dontTouchMe">
+		<img src="./img/icons/icon-close-white.svg" id="btnCloseMobiMenu">
+		<ul>
+			<li> <!-- dropdown HOME (start) -->
+				<a href="/">Home</a>
+				<ul class="sub-menu">
+					<li><a href="/">Home 1</a></li>
+					<li><a href="#">Home 2</a></li>
+					<li><a href="#">Home 3</a></li>					
+					<li ><a href="#">Home 4</a></li>					
+					<li ><a href="#">Home 5</a></li>
+					<li><a href="#">Coming soon</a></li>														
+				</ul>
+			</li> <!-- dropdown HOME (end) -->
+			<li> <!-- dropdown ABOUT US (start) -->
+				<a href="/about.html">About us</a>
+				<ul class="sub-menu">
+					<li><a href="/about.html">About us</a></li>
+					<li><a href="#">Faq</a></li>
+					<li><a href="#">Membership Card</a></li>
+					<li><a href="/treatments.html">Treatments</a></li>
+				</ul>
+			</li> <!-- dropdown ABOUT US (end) -->
+			<li> <!-- dropdown TREATMENTS (start) -->
+				<a href="/treatments.html">Treatments</a>
+				<ul class="sub-menu">
+					<li><a href="/treatments.html">Archive</a></li>
+					<li><a href="#">Single Treatment</a></li>
+					<li><a href="/booking.html">Booking</a></li>
+					<li ><a href="/gallery.html">Gallery</a></li>
+					<li><a href="#">Membership Card</a></li>
+					<li><a href="/prices.html">Prices</a></li>
+				</ul>
+			</li> <!-- dropdown TREATMENTS (end) -->
+			<li><a href="/services.html">Services</a></li> 
+			<li><a href="/prices.html">Prices</a></li>
+			<li> <!-- dropdown PAGES (start) -->
+				<a href="#">Pages</a>
+				<ul class="sub-menu">
+					<li><a href="/about.html">About Us</a></li>
+					<li ><a href="#">Faq</a></li>
+					<li><a href="#">Membership Card</a></li>
+					<li><a href="/gallery.html">Gallery</a></li>
+					<li><a href="#">Product</a></li>
+					<li><a href="/price.html">Prices</a></li>
+					<li><a href="/services.html">Services</a></li>
+					<li><a href="/treatments.html">Treatments</a></li>
+					<li ><a href="#">Coming Soon</a></li>
+					<li><a href="/contact.html">Contact</a></li>
+					<li><a href="/booking.html">Booking</a></li>
+				</ul>
+			</li> <!-- dropdown PAGES (end) -->
+			<li> <!-- dropdown SHOP (start) -->
+				<a href="/shopMain.html">Shop</a>
+				<ul class="sub-menu">
+					<li class="menu-item-has-children"> <!-- dropdown SHOP > PRODUCTS (start) -->
+						<a href="/shopMain.html">Products</a>
+						<ul class="sub-menu">
+							<li><a href="#">Full Width</a></li>
+							<li><a href="#">Right Sidebar</a></li>
+							<li><a href="#">Left Sidebar</a></li>
+						</ul>
+					</li> <!-- dropdown SHOP > PRODUCTS (end) -->
+					<li><a href="/shopItemView.html">Single Product</a></li>
+					<li><a href="#">Cart</a></li>
+					<li><a href="#">Checkout</a></li>
+				</ul>
+			</li> <!-- dropdown SHOP (end) -->
+			<li> <!-- dropdown BLOG (start) -->
+				<a href="#">Blog</a>
+				<ul class="sub-menu">
+					<li><a href="#">Blog Masonry</a></li>
+					<li class="menu-item-has-children"> <!-- dropdown BLOG > BLOG MASONRY (start) -->
+						<a href="#">Blog Standard</a>
+						<ul class="sub-menu">
+							<li><a href="#">Right Sidebar</a></li>
+							<li><a href="#">Left Sidebar</a></li>
+						</ul>
+					</li> <!-- dropdown BLOG > BLOG MASONRY (end) -->
+					<li class="menu-item-has-children"> <!-- dropdown BLOG > SINGLE POST (start) -->
+						<a href="#">Single Post</a>
+						<ul class="sub-menu">
+							<li><a href="#">Right Sidebar</a></li>
+							<li><a href="#">Left Sidebar</a></li>
+							<li><a href="#">Full Width</a></li>
+						</ul>
+					</li> <!-- dropdown BLOG > SINGLE POST (end) -->
+				</ul>
+			</li> <!-- dropdown BLOG (end) -->
+			<li> <!-- dropdown CONTACT US (start) -->
+				<a href="/contact.html">Contact us</a>
+				<ul class="sub-menu">
+					<li><a href="/contact.html">Contact 1</a></li>
+					<li><a href="#">Contact 2</a></li>
+					<li ><a href="/booking.html">Booking</a></li>
+				</ul>
+			</li> <!-- dropdown CONTACT US (end) -->
+		</ul>
+	</div>
+	<!-- block Mobi Menu (end) -->
+
+
+	<!-- block Header (start) -->
+	<header>
+		<div class="container">
+			<div class="row dontTouchMe">
+				<div class="col-12 col-xl-6 text-center text-xl-left">
+					<a href="#" class="d-none d-md-inline"><img src="./img/icons/world-white.svg">Languages</a>
+					<a href="#">EN</a>
+					<a href="#">ES</a>
+					<a href="#" class="d-none d-md-inline"><img src="./img/icons/share-white.svg">Our social</a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-linkedin-in"></i></a>
+					<a href="#"><i class="fab fa-pinterest-p"></i></a>
+				</div>
+				<div class="col-12 col-xl-6 text-center text-xl-right">
+					<a href="#"><img src="./img/icons/star-white.svg">Treatments</a>
+					<a href="#"><img src="./img/icons/pin-white.svg">Contact us</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- block Header (end) -->	
+
+	
+	<!-- block Logo (start) -->
+	<div id="logo">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<a href="/">
+						<img src="./img/logo.png">
+					</a> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- block Logo (end) -->
+
+
+	<!-- block Nav (start) -->
+	<nav class="dontTouchMe">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<img src="./img/icons/icon-menu.svg" class="d-block d-xl-none" id="btnMobiMenu"> 
+					<ul class="menu d-none d-xl-block">
+						<li> <!-- dropdown HOME (start) -->
+							<a href="/" class="link">Home</a>
+							<ul class="sub-menu">
+								<li><a href="/">Home 1</a></li>
+								<li><a href="#">Home 2</a></li>
+								<li><a href="#">Home 3</a></li>					
+								<li class="itemNew"><a href="#">Home 4</a></li>					
+								<li class="itemNew"><a href="#">Home 5</a></li>
+								<li><a href="#">Coming soon</a></li>														
+							</ul>
+						</li> <!-- dropdown HOME (end) -->
+						<li> <!-- dropdown ABOUT US (start) -->
+							<a href="/about.html" class="link">About us</a>
+							<ul class="sub-menu">
+								<li><a href="/about.html">About us</a></li>
+								<li><a href="#">Faq</a></li>
+								<li><a href="#">Membership Card</a></li>
+								<li class="itemBest"><a href="/treatments.html">Treatments</a></li>
+							</ul>
+						</li> <!-- dropdown ABOUT US (end) -->
+						<li> <!-- dropdown TREATMENTS (start) -->
+							<a href="/treatments.html" class="link">Treatments</a>
+							<ul class="sub-menu">
+								<li><a href="/treatments.html">Archive</a></li>
+								<li><a href="#">Single Treatment</a></li>
+								<li class="itemHot"><a href="/booking.html">Booking</a></li>
+								<li class="itemNew"><a href="/gallery.html">Gallery</a></li>
+								<li><a href="#">Membership Card</a></li>
+								<li><a href="/prices.html">Prices</a></li>
+							</ul>
+						</li> <!-- dropdown TREATMENTS (end) -->
+						<li><a href="/services.html" class="link">Services</a></li> 
+						<li><a href="/prices.html" class="link">Prices</a></li>
+						<li> <!-- dropdown PAGES (start) -->
+							<a href="#" class="link">Pages</a>
+							<ul class="sub-menu">
+								<li><a href="/about.html">About Us</a></li>
+								<li class="itemNew"><a href="#">Faq</a></li>
+								<li><a href="#">Membership Card</a></li>
+								<li><a href="/gallery.html">Gallery</a></li>
+								<li><a href="#">Product</a></li>
+								<li><a href="/prices.html">Prices</a></li>
+								<li><a href="/services.html">Services</a></li>
+								<li class="itemHot"><a href="/treatments.html">Treatments</a></li>
+								<li class="itemNew"><a href="#">Coming Soon</a></li>
+								<li><a href="/contact.html">Contact</a></li>
+								<li><a href="/booking.html">Booking</a></li>
+							</ul>
+						</li> <!-- dropdown PAGES (end) -->
+						<li> <!-- dropdown SHOP (start) -->
+							<a href="/shopMain.html" class="link">Shop</a>
+							<ul class="sub-menu">
+								<li class="menu-item-has-children"> <!-- dropdown SHOP > PRODUCTS (start) -->
+									<a href="/shopMain.html">Products</a>
+									<ul class="sub-menu">
+										<li><a href="#">Full Width</a></li>
+										<li><a href="#">Right Sidebar</a></li>
+										<li><a href="#">Left Sidebar</a></li>
+									</ul>
+								</li> <!-- dropdown SHOP > PRODUCTS (end) -->
+								<li><a href="/shopItemView.html">Single Product</a></li>
+								<li><a href="#">Cart</a></li>
+								<li><a href="#">Checkout</a></li>
+							</ul>
+						</li> <!-- dropdown SHOP (end) -->
+						<li> <!-- dropdown BLOG (start) -->
+							<a href="#" class="link">Blog</a>
+							<ul class="sub-menu">
+								<li class="itemBest"><a href="#">Blog Masonry</a></li>
+								<li class="menu-item-has-children"> <!-- dropdown BLOG > BLOG MASONRY (start) -->
+									<a href="#">Blog Standard</a>
+									<ul class="sub-menu">
+										<li><a href="#">Right Sidebar</a></li>
+										<li><a href="#">Left Sidebar</a></li>
+									</ul>
+								</li> <!-- dropdown BLOG > BLOG MASONRY (end) -->
+								<li class="menu-item-has-children"> <!-- dropdown BLOG > SINGLE POST (start) -->
+									<a href="#">Single Post</a>
+									<ul class="sub-menu">
+										<li><a href="#">Right Sidebar</a></li>
+										<li><a href="#">Left Sidebar</a></li>
+										<li><a href="#">Full Width</a></li>
+									</ul>
+								</li> <!-- dropdown BLOG > SINGLE POST (end) -->
+							</ul>
+						</li> <!-- dropdown BLOG (end) -->
+						<li> <!-- dropdown CONTACT US (start) -->
+							<a href="/contact.html" class="btnContact">Contact us</a>
+							<ul class="sub-menu">
+								<li><a href="/contact.html">Contact 1</a></li>
+								<li><a href="#">Contact 2</a></li>
+								<li class="itemNew"><a href="/booking.html">Booking</a></li>
+							</ul>
+						</li> <!-- dropdown CONTACT US (end) -->
+					</ul>
+				</div> <!-- end! col -->
+			</div> <!-- end! row -->
+		</div> <!-- end! container -->
+		<img src="./img/icons/search.png" id="btnMenuSearch" class="d-none d-xl-block" data-toggle="modal" data-target="#modalSearch">		
+	</nav>
+	<!-- block Nav (start) -->
+
+
+<!-- HEADEAR ///////////////////////////////////////////////// -->
+
+
+
+
+
+
+
+  <!-- block pageHead (start) -->
+  <div id="pageHead" class="pageHeadServicesPage">
+    <div class="shadow">
+      <h1>Services</h1>
+
+      <!-- breadcrumbs (start) -->
+      <div class="breadcrumbs">
+        <p>
+          <a href="/">Home</a>
+          <img src="./img/icons/icon-next-white.svg">Services</p>
+      </div>
+      <!-- breadcrumbs (end) -->
     </div>
   </div>
-  <a href="/contact.html"><button type="button" class="btn btnContacs">Contacs Us</button></a>
-</nav>
-<div id="enterTop"></div>
-<!-- header -->
-<!-- breadcrumbs (start) -->
-  <div class="breadcrumbs">
+  <!-- block pageHead (end) -->
+
+
+<!-- block with matt effect first (stsrt) -->
+<div id="mattEffect">
+  <div class="container">
+    <div class="row">
+      <div class="col-6 col-lg-3 mattItem">
+        <img src="./img/service-1.png" alt="">
+        <h2>Matt Effect</h2>
+        <p class="mainPageOrdinaryText">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+        <a href="#">Read More</a>
+      </div>
+
+      <div class="col-6 col-lg-3 mattItem">
+        <img src="./img/service-2.png" alt="">
+        <h2>Sauna Ready</h2>
+        <p class="mainPageOrdinaryText">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+        <a href="#">Read More</a>
+      </div>
+
+      <div class="col-6 col-lg-3 mattItem">
+        <img src="./img/service-3.png" alt="">
+        <h2>Relax Zones</h2>
+        <p class="mainPageOrdinaryText">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+        <a href="#">Read More</a>
+      </div>
+
+      <div class="col-6 col-lg-3 mattItem">
+        <img src="./img/service-4.png" alt="">
+        <h2>Natural Mask</h2>
+        <p class="mainPageOrdinaryText">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- block with matt effect first (end) -->
+
+
+<!-- block with articles (start) -->
+<div id="articlesBlock">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-4 articleItem">
+        <img src="./img/blog-4-1024x576.jpg" alt="">
+        <h5>Relax</h5>
+        <h2 >Treatments Presentation</h2>
+        <p class="mainPageOrdinaryText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at porttitor vehicula nullam augue.</p>
+        <a href="#"  class="primaryBtn" >Read More</a>
+      </div>
+
+      <div class="col-12 col-md-4 articleItem">
+        <img src="./img/blog-2-1024x576.jpg" alt="">
+        <h5>Relax</h5>
+        <h2>Treatments Presentation</h2>
+        <p class="mainPageOrdinaryText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at porttitor vehicula nullam augue.</p>
+        <a href="#" class="primaryBtn">Read More</a>
+      </div>
+
+      <div class="col-12 col-md-4 articleItem">
+        <img src="./img/blog-5-1024x576.jpg" alt="">
+        <h5>Relax</h5>
+        <h2>Treatments Presentation</h2>
+        <p class="mainPageOrdinaryText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at porttitor vehicula nullam augue.</p>
+        <a href="#" class="primaryBtn">Read More</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- block with articles (end) -->
+
+
+<!-- block with bgImage about our stuff (start) -->
+<div id="bgImageOurStuff">
+  <div class="shadow">
     <div class="container">
       <div class="row">
-        <div class="col">
-          <div class="breadcrumbsLinks">
-            <p><a href="/">Home</a> | <span>Services</snap></p>
+        <div class="col-12 col-md-6">
+          <div class="textOnBg">
+            <h1 class="mainTextWhite">Our Stuff</h1>
+            <p class="whitePText">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              <br> Tenetur nostrum praesentium iusto ipsum doloribus.</p>
+            <a href="#" class="primaryBtn">Read More</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="row">
+            <div class="col-12 col-sm-6">
+              <div class="itemOurStuff">
+                <img src="./img/service-1.png" alt="">
+                <h1>560 K</h1>
+                <h3>CUSTOMERS</h3>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6">
+              <div class="itemOurStuff">
+                <img src="./img/service-2.png" alt="">
+                <h1>120</h1>
+                <h3> CERTIFICATES</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-sm-6">
+              <div class="itemOurStuff">
+                <img src="./img/service-3.png" alt="">
+                <h1>69</h1>
+                <h3>TREATMENTS</h3>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6">
+              <div class="itemOurStuff">
+                <img src="./img/service-4.png" alt="">
+                <h1>3200</h1>
+                <h3>REVIEWS</h3>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-<!-- breadcrumbs (end) --> 
-<div class="container-fluid">
-  <div class="row servicesPage">
-    <div class="col-8"></div>
-    <div class="col-4 textService">
-      <h2>Core Directions</h2>
-      <p>We have an intention to encompass all the spheres that require protection. We are making great efforts to save our planet and teach people to love and respect it as we do.
-      <br><br>42 million people face hunger in the U.S. today — including nearly 13 million children and more than five million seniors. Hunger knows no boundaries — it touches every community in the U.S., including your own.</p>
-    </div>
-  </div>
-  <div class="row staticServices">
-    <div class="col food1">
-      <h2>01.</h2>
-      <h3>Food</h3>
-      <p>We supply food to regions struggling from hunger all over the globe Empower Cities with Holistic Food-Waste Reduction Strategies Forty</p>
-      <a href="#">Read More</a>
-    </div>
-    <div class="col climate2">
-      <h2>02.</h2>
-      <h3>Climate</h3>
-      <p>It provides positive support, feedback and advice on an individual or group basis to improve personal effectiveness.. Empower Cities with</p>
-      <a href="#">Read More</a>
-    </div>
-    <div class="col water3">
-      <h2>03.</h2>
-      <h3>Fresh Water</h3>
-      <p>Learn How to Optimize Your Workforce. Contact Us for a Free Assessment Today. Supply Chain Mngmt Coach. Empower Cities with</p>
-      <a href="#">Read More</a>
+</div>
+<!-- block with bgImage about our stuff (end) -->
+
+<!-- block with png img(start) -->
+<div id="pngStuff">
+  <div class="container-fluid">
+    <div class="row">
+    
+      <div class="col-6 col-sm-3 blockImagesItem">
+        <img src="./img/service-1.png">
+        <p>MATT EFFECT</p>
+      </div>
+    
+      <div class="col-6 col-sm-3 blockImagesItem">
+        <img src="./img/service-2.png">
+        <p>SAUNA READY</p>
+      </div>
+    
+      <div class="col-6 col-sm-3 blockImagesItem">
+        <img src="./img/service-3.png">
+        <p>RELAX ZONES</p>
+      </div>
+    
+      <div class="col-6 col-sm-3 blockImagesItem blockImagesLastItem">
+        <img src="./img/service-4.png">
+        <p>NATURAL MASK</p>
+      </div>
+    
     </div>
   </div>
 </div>
-<!-- footer -->
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <div class="footerInfo">
-        <img src="./img/footer-logo.png">
-        <p>Address: <span>4578 Marmora Road, Glasgow, D04 89GR</span></p>
-        <p>Phones: <a href="#">(800) 123-0045;</a> <a href="#">(800) 123-0046</a></p>
-        <p>We are open: <span>Mn-Fr: 10 am-8 pm</span></p>
-        <p>E-mail: <a href="#" class="footerEmail">info@demolink.org</a></p>
+<!-- block with png img (end) -->
+
+<!-- block with text (start) -->
+<div id="lotTextServ">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="mainPageText1">OUR PRICES</h3>
+        <h1 class="mainPageText2">The Best Promotion</h1>
       </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <div class="footerIcons">
-        <a href=""><i class="fab fa-facebook-f"></i></a>
-        <a href=""><i class="fab fa-twitter"></i></a>
-        <a href=""><i class="fab fa-google-plus-g"></i></a>
-        <a href=""><i class="fab fa-linkedin-in"></i></a>
-        <a href=""><i class="fab fa-pinterest"></i></a>
+    <div class="row">
+      <div class="col-12 col-lg-4 firstLayer">
+        <div class="floatingImg">
+          <img src="./img/service-1.png" alt="">
+        </div>
+        <h2>Matt Effect</h2>
+        <p class="mainPageOrdinaryText">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+        <a href="#">Read More</a>
+      </div>
+
+      <div class="col-12 col-lg-4 firstLayer">
+        <div class="floatingImg">
+          <img src="./img/service-3.png" alt="">
+        </div>
+        <h2>Sauna Ready</h2>
+        <p class="mainPageOrdinaryText">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+        <a href="#">Read More</a>
+      </div>
+
+      <div class="col-12 col-lg-4 firstLayer">
+        <div class="floatingImg">
+          <img src="./img/service-2.png" alt="">
+        </div>
+        <h2>Relax Zones</h2>
+        <p class="mainPageOrdinaryText">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+        <a href="#">Read More</a>
       </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <div class="footerRights">
-        <p>2018 © Lovethyneighbor. All Rights Reserved.</p>
+
+    <div class="row ">
+      <div class="col-12 col-lg-4 firstLayer">
+        <div class="floatingImg">
+          <img src="./img/service-4.png" alt="">
+        </div>
+        <h2>Natural Mask</h2>
+        <p class="mainPageOrdinaryText">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+        <a href="#">Read More</a>
+      </div>
+
+      <div class="col-12 col-lg-4 firstLayer">
+        <div class="floatingImg">
+          <img src="./img/service-5.png" alt="">
+        </div>
+        <h2>Hair Area</h2>
+        <p class="mainPageOrdinaryText">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+        <a href="#">Read More</a>
+      </div>
+
+      <div class="col-12 col-lg-4 firstLayer">
+        <div class="floatingImg">
+          <img src="./img/service-6.png" alt="">
+        </div>
+        <h2>Aromatherapy</h2>
+        <p class="mainPageOrdinaryText">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+        <a href="#">Read More</a>
       </div>
     </div>
+
   </div>
 </div>
-<div id="btnGoForward" style="display: none;">
-  <i class="fas fa-chevron-up"></i>
+<!-- block with text (end) -->
+
+<!-- block with one more stuff and bg (start) -->
+<div id="bgDoingRight">
+  <div class="shadow">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="mainTextWhite">Doing the right thing,<br> at the right time.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-sm-3 col-lg-2">
+          <h1 class="mainTextWhite">12</h1>
+          <p class="whitePText"> SPECIALIST</p>
+        </div>
+        <div class="col-6 col-sm-3 col-lg-2">
+          <h1 class="mainTextWhite">100</h1>
+          <p class="whitePText"> TREATMENTS</p>
+        </div>
+        <div class="col-6 col-sm-3 col-lg-2">
+          <h1 class="mainTextWhite">47</h1>
+          <p class="whitePText"> PROMOTIONS</p>
+        </div>
+        <div class="col-6 col-sm-3 col-lg-2">
+          <h1 class="mainTextWhite">10</h1>
+          <p class="whitePText"> COSMETICS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 </div>
-  <!-- jQuery first, then Tether, then Bootstrap JS. -->
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  <!-- my script -->
-  <script src="/js/main.js"></script>
+<!-- block with one more stuff and bg (end) -->
+
+
+
+  
+
+  <!-- block with something about and products (start) -->
+  <div id="spaBottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <h3>About Us</h3>
+          <img src="./img/focus-4.jpg" alt="">
+          <p class="mainPageOrdinaryText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at porttitor vehicula nullam augue
+            Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col-12 col-lg-4">
+          <h3>Latest Products</h3>
+  
+          <div class="products">
+            <img src="./img/shop-1-180x180.jpg">
+            <div class="description">
+              <h2>Honey Mask 100 cl</h2>
+              <h4>$13.80</h4>
+            </div>
+          </div>
+  
+          <div class="products">
+            <img src="./img/shop-2-180x180.jpg" alt="">
+            <div class="description">
+              <h2>Honey Mask 100 cl</h2>
+              <h4>$13.80</h4>
+            </div>
+          </div>
+  
+          <div class="products">
+            <img src="./img/shop-3-180x180.jpg" alt="">
+            <div class="description">
+              <h2>Honey Mask 100 cl</h2>
+              <h4>$13.80</h4>
+            </div>
+          </div>
+  
+  
+        </div>
+        <div class="col-12 col-lg-4">
+          <h3>Best Products</h3>
+          <div class="products">
+            <img src="./img/shop-1-180x180.jpg">
+            <div class="description">
+              <h2>Honey Mask 100 cl</h2>
+              <h4>$13.80</h4>
+            </div>
+          </div>
+  
+          <div class="products">
+            <img src="./img/shop-2-180x180.jpg" alt="">
+            <div class="description">
+              <h2>Honey Mask 100 cl</h2>
+              <h4>$13.80</h4>
+            </div>
+          </div>
+  
+          <div class="products">
+            <img src="./img/shop-3-180x180.jpg" alt="">
+            <div class="description">
+              <h2>Honey Mask 100 cl</h2>
+              <h4>$13.80</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- block with something about and products (start) -->
+
+	
+
+
+	<!-- FOOTER //////////////////////////////////////////////////////////// -->
+
+
+
+
+	<!-- block Footer (start) -->
+	<footer class="dontTouchMe">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-6 text-center text-lg-left">
+					<p>© Copyright 2018. by annablgkv</p>
+				</div>
+				<div class="col-12 col-lg-6 text-center text-lg-right">
+					<a href="#"><i class="fab fa-twitter"></i><span class="d-none d-md-inline">twitter</span></a>
+					<a href="#"><i class="fab fa-instagram"></i><span class="d-none d-md-inline">instagram</span></a>					
+					<a href="#"><i class="fab fa-facebook-f"></i><span class="d-none d-md-inline">facebook</span></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- block Footer (end) -->	
+
+
+	<!-- modal Nav >> Search (start) -->
+	<div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div id="blockSearch" class="modal-content">
+				<form>
+					<input type="text" placeholder="Keyword">
+					<input type="submit" value="Search">
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- modal Nav >> Search (end) -->	
+	
+
+	<!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!-- parallax.js -->
+	<script src="./js/parallax.min.js"></script>
+	<!-- main script -->
+  <script src="./js/main.js"></script>	
+  <script>
+    //page services bg (start)
+      $('#bgImageOurStuff').parallax({ imageSrc: './img/parallax-9.jpg', speed: 0.4 })
+    //page services bg (start)
+    //page services bg (start)
+      $('#bgDoingRight').parallax({ imageSrc: './img/parallax-10.jpg', speed: 0.7 })
+    //page services bg (start)
+  </script>
 </body>
 </html>

@@ -1,406 +1,862 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Home</title>
-  <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
-    crossorigin="anonymous">
-  <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- fa 5 -->
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<!-- animate.css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<!-- main style -->
   <link rel="stylesheet" href="./css/main.css">
+  <title>Home</title>
+	<!-- favicon -->
+	<link rel="icon" type="image/png" href="./img/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="./img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="./img/favicon.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="./img/favicon.png" sizes="128x128">	
 </head>
-
 <body>
-<nav class="navbar navbar-toggleable-md navbar-light">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="/">
-    <img src="./img/logo.png">
-  </a>
-  <div class="collapse navbar-collapse menuMain" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="/">Home
-        <span class="sr-only">(current)</span>
-      </a>
-      <a class="nav-item nav-link" href="/about.html">About us</a>
-      <a class="nav-item nav-link" href="/services.html">Services</a>
-      <a class="nav-item nav-link" href="/cases.html">Cases</a>
-      <a class="nav-item nav-link" href="/news.html">News</a>      
-      <a class="nav-item nav-link" href="/contact.html">Contacts</a>
-      <li class="nav-item dropdown">
-        <a class="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Pages
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="/404.html">404</a>
-          <a class="dropdown-item" href="/moreNeed.html">News Style 1</a>
-          <a class="dropdown-item" href="/pageFood.html">News Style 2</a>     
-        </div>
-      </li>
-    </div>
-  </div>
-  <a href="/contact.html"><button type="button" class="btn btnContacs">Contacs Us</button></a>
-</nav>
-<div id="enterTop"></div>
-<!-- header -->
 
-<!-- End of main menu, now begin sliders-->
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators carousel-indicators--round buttonsSlider">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox">
-    <!-- 1 slide (start) -->
-    <div class="carousel-item active">
-      <img class="d-block img-fluid" src="./img/slider1.jpg" alt="First slide">
-      <div class="carousel-caption d-none d-md-block">
-        <div class="textSlider">
-          <h3 class="mainSlider">Save The Wild Nature!</h3>
-          <p class="descSlider">Our world needs many different animals and plants, and different types of habitats for them and us to live in.</p>
-          <a href="contact.html"><button type="button" class="btn btnDonate">Make a Donation</button> </a>  
-        </div>
-      </div>
-    </div>
-    <!-- 1 slide (end) -->
-    <!-- 2 slide (start) -->
-    <div class="carousel-item">
-      <img class="d-block img-fluid" src="./img/slider2.jpg" alt="Second slide">
-      <div class="carousel-caption d-none d-md-block">
-        <div class="textSlider">
-          <h3 class="mainSlider">Save The Wild Nature!</h3>
-          <p class="descSlider">Our world needs many different animals and plants, and different types of habitats for them and us to live in.</p>
-          <button type="button" class="btn btnDonate">Make a Donation</button>  
-        </div>
-      </div>
-    </div>
-    <!-- 2 slide (end) -->
-    <!-- 3 slide (start) -->
-    <div class="carousel-item">
-      <img class="d-block img-fluid" src="./img/slider3.jpg" alt="Third slide">
-      <div class="carousel-caption d-none d-md-block">
-        <div class="textSlider">
-          <h3 class="mainSlider">Save The Wild Nature!</h3>
-          <p class="descSlider">Our world needs many different animals and plants, and different types of habitats for them and us to live in.</p>
-          <button type="button" class="btn btnDonate">Make a Donation</button>
-        </div>
-      </div>
-    </div>
-    <!-- 3 slide (end) -->
-  </div>
-</div>
-<!--That's all with a slider, now start about mission -->
+	<!-- block Mobi Menu (start) -->
+	<div id="mobiMenu" class="d-block d-xl-none dontTouchMe">
+		<img src="./img/icons/icon-close-white.svg" id="btnCloseMobiMenu">
+		<ul>
+			<li> <!-- dropdown HOME (start) -->
+				<a href="/">Home</a>
+				<ul class="sub-menu">
+					<li><a href="/">Home 1</a></li>
+					<li><a href="#">Home 2</a></li>
+					<li><a href="#">Home 3</a></li>					
+					<li ><a href="#">Home 4</a></li>					
+					<li ><a href="#">Home 5</a></li>
+					<li><a href="#">Coming soon</a></li>														
+				</ul>
+			</li> <!-- dropdown HOME (end) -->
+			<li> <!-- dropdown ABOUT US (start) -->
+				<a href="/about.html">About us</a>
+				<ul class="sub-menu">
+					<li><a href="/about.html">About us</a></li>
+					<li><a href="#">Faq</a></li>
+					<li><a href="#">Membership Card</a></li>
+					<li><a href="/treatments.html">Treatments</a></li>
+				</ul>
+			</li> <!-- dropdown ABOUT US (end) -->
+			<li> <!-- dropdown TREATMENTS (start) -->
+				<a href="/treatments.html">Treatments</a>
+				<ul class="sub-menu">
+					<li><a href="/treatments.html">Archive</a></li>
+					<li><a href="#">Single Treatment</a></li>
+					<li><a href="/booking.html">Booking</a></li>
+					<li ><a href="/gallery.html">Gallery</a></li>
+					<li><a href="#">Membership Card</a></li>
+					<li><a href="/prices.html">Prices</a></li>
+				</ul>
+			</li> <!-- dropdown TREATMENTS (end) -->
+			<li><a href="/services.html">Services</a></li> 
+			<li><a href="/prices.html">Prices</a></li>
+			<li> <!-- dropdown PAGES (start) -->
+				<a href="#">Pages</a>
+				<ul class="sub-menu">
+					<li><a href="/about.html">About Us</a></li>
+					<li ><a href="#">Faq</a></li>
+					<li><a href="#">Membership Card</a></li>
+					<li><a href="/gallery.html">Gallery</a></li>
+					<li><a href="#">Product</a></li>
+					<li><a href="/price.html">Prices</a></li>
+					<li><a href="/services.html">Services</a></li>
+					<li><a href="/treatments.html">Treatments</a></li>
+					<li ><a href="#">Coming Soon</a></li>
+					<li><a href="/contact.html">Contact</a></li>
+					<li><a href="/booking.html">Booking</a></li>
+				</ul>
+			</li> <!-- dropdown PAGES (end) -->
+			<li> <!-- dropdown SHOP (start) -->
+				<a href="/shopMain.html">Shop</a>
+				<ul class="sub-menu">
+					<li class="menu-item-has-children"> <!-- dropdown SHOP > PRODUCTS (start) -->
+						<a href="/shopMain.html">Products</a>
+						<ul class="sub-menu">
+							<li><a href="#">Full Width</a></li>
+							<li><a href="#">Right Sidebar</a></li>
+							<li><a href="#">Left Sidebar</a></li>
+						</ul>
+					</li> <!-- dropdown SHOP > PRODUCTS (end) -->
+					<li><a href="/shopItemView.html">Single Product</a></li>
+					<li><a href="#">Cart</a></li>
+					<li><a href="#">Checkout</a></li>
+				</ul>
+			</li> <!-- dropdown SHOP (end) -->
+			<li> <!-- dropdown BLOG (start) -->
+				<a href="#">Blog</a>
+				<ul class="sub-menu">
+					<li><a href="#">Blog Masonry</a></li>
+					<li class="menu-item-has-children"> <!-- dropdown BLOG > BLOG MASONRY (start) -->
+						<a href="#">Blog Standard</a>
+						<ul class="sub-menu">
+							<li><a href="#">Right Sidebar</a></li>
+							<li><a href="#">Left Sidebar</a></li>
+						</ul>
+					</li> <!-- dropdown BLOG > BLOG MASONRY (end) -->
+					<li class="menu-item-has-children"> <!-- dropdown BLOG > SINGLE POST (start) -->
+						<a href="#">Single Post</a>
+						<ul class="sub-menu">
+							<li><a href="#">Right Sidebar</a></li>
+							<li><a href="#">Left Sidebar</a></li>
+							<li><a href="#">Full Width</a></li>
+						</ul>
+					</li> <!-- dropdown BLOG > SINGLE POST (end) -->
+				</ul>
+			</li> <!-- dropdown BLOG (end) -->
+			<li> <!-- dropdown CONTACT US (start) -->
+				<a href="/contact.html">Contact us</a>
+				<ul class="sub-menu">
+					<li><a href="/contact.html">Contact 1</a></li>
+					<li><a href="#">Contact 2</a></li>
+					<li ><a href="/booking.html">Booking</a></li>
+				</ul>
+			</li> <!-- dropdown CONTACT US (end) -->
+		</ul>
+	</div>
+	<!-- block Mobi Menu (end) -->
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col">
-      <h3 class = "MissionText">Our Mission</h3>
-      <h2 class = "conserve">Our mission is to conserve nature</h2>
-    </div>
-  </div>
-  <div class="row nature">
-    <!-- row 1 -->
-    <div class="col-4">
-      <div class ="natureDesc">
-        <a href="pageFood.html"><h3 class="floatTextRight colorText1">Food</h3></a>
-        <p class="floatTextRight">We supply food to regions struggling from hunger</p>
-      </div>
-      <div class="iconsCircle colorIcon1">
-      <i class="fas fa-wrench"></i>
-      </div>
-    </div>
-    <div class="col-4">
-      
-    </div>
-    <div class="col-4">
-      <div class="iconsCircle colorIcon2">
-        <i class="fas fa-cog"></i>
-      </div>
-      <div class ="natureDesc descRight">
-        <a href="pageFood.html"><h3 class="colorText2">Wild Life</h3></a>
-        <p>What is Confidence Coaching? Empower Cities with Holistic</p>
-      </div>
-    </div>
-    <!-- row 1 end -->
-    <!-- row 2 -->
-     <div class="col-4">
-      <div class ="natureDesc">
-        <a href="pageFood.html"><h3 class="floatTextRight colorText3">Climate</h3></a>
-        <p class="floatTextRight">It provides positive support, feedback and advice on</p>
-      </div>
-      <div class="iconsCircle colorIcon3">
-       <i class="far fa-copy"></i>
-      </div>
-    </div>
-    <div class="col-4">
-      
-    </div>
-    <div class="col-4">
-      <div class="iconsCircle colorIcon4">
-       <i class="fas fa-cloud"></i>
-      </div>
-      <div class ="natureDesc descRight">
-        <a href="pageFood.html"><h3 class="colorText4">Forests</h3></a>
-        <p>What is Confidence Coaching? Empower Cities with Holistic</p>
-      </div>
- 
-    </div>
-    <!-- row 2 end -->
-    <!--row 3 -->
-     <div class="col-4">
-      <div class ="natureDesc">
-        <a href="pageFood.html"><h3 class="floatTextRight colorText5">Fresh Water</h3></a>
-        <p class="floatTextRight">Learn How to Optimize Your Workforce. Contact Us</p>
-      </div>
-      <div class="iconsCircle colorIcon5">
-       <i class="far fa-file"></i>
-      </div>
-    </div>
-    <div class="col-4">
-      
-    </div>
-    <div class="col-4">
-      <div class="iconsCircle colorIcon6">
-        <i class="fas fa-lightbulb"></i>
-      </div>
-      <div class ="natureDesc descRight">
-        <a href="pageFood.html"><h3 class="colorText6">Oceans</h3></a>
-        <p>What is Confidence Coaching? Empower Cities with Holistic</p>
-      </div>
 
-    </div>
-    <!-- row 3 ends-->
-  </div>
-</div>
-<!--That's all about mission, go to cause list -->
-<div class="containerBg">
-  <div class = "container"> 
-    <div class="row">
-      <div class="col">
-        <h3 class = "cause">Cause List</h3>
-        <h2 class = "causeDesc">There are many projects we're fighting for today. Check the detailed information about our recent cases</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-4">
-        <div class="colBg">
-          <img src="img/brand1.jpg">
-          <h3 class="stop">Stop Syria’s Hunger</h3>
-          <p class="stopDesc">Syria’s civilian population needs our common effort to save them from hunger they are suffering from because of military actions. Children, women and elderly are hostages of war.</p>
-        </div>
-      </div>
-       <div class="col-4">
-        <div class="colBg">
-          <img src="img/brand2.jpg">
-          <h3 class="stop">More Plants Needed</h3>
-          <p class="stopDesc">Because of climate changing and human’s actions damaging the Earth, number of trees has been decreasing. Humanity needs more plants! We regularly plant trees in the parks and streets.</p>
-        </div>
-      </div>
-       <div class="col-4">
-        <div class="colBg">
-          <img src="img/brand3.jpg">
-          <h3 class="stop">Stop Wildlife Crime</h3>
-          <p class="stopDesc">Nobody but us can stop wildlife crime and contribute to its saving. We work with many environmental companies to save African wildlife from extermination. Don’t walk by! </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--End of cause list, begin static -->
-<div class="staticBg">
-  <div class="container">
-    <div class="row">
-      <div class="col-3 staticStyle">
-        <i class="fas fa-coffee"></i>
-        <h2>7895</h2>
-        <p>Beavers Saved</p>
-      </div>
-      <div class="col-3 staticStyle">
-        <i class="fas fa-folder"></i>
-        <h2>158</h2>
-        <p>Projects Done</p>
-      </div>
-      <div class="col-3 staticStyle">
-        <i class="fas fa-keyboard"></i>
-        <h2>$120.000</h2>
-        <p>Funds Collected </p>
-      </div>
-      <div class="col-3 staticStyle">
-        <i class="fas fa-user"></i>
-        <h2>680 +</h2>
-        <p>Volunteers</p>
-      </div>
-    </div>
-  </div>
-</div>
-<!--End of static, now go with video -->
-<div class="video">
-  <div class="container">
-    <div class="row">
-      <div class="col videoImg">
-        <img src="img/homeimg1.jpg" >
-      </div>
-      <div class="col">
-        <h2 class="videoTitle">Description with Video</h2>
-        <h3 class = "videoDesc">Watch this touching video describing how we all can save African elephants!</h3>
-        <p class="videoText">The African elephant is the largest animal walking the Earth. Their herds wander through 37 countries in Africa. They are easily recognized by their trunk that is used for communication and handling objects. Savanna elephants are larger than forest elephants, and their tusks curve outwards.</p>
-        <a href="about.html" class="buttonAbout">About Us</a>
-      </div>
-    </div>
-  </div>
-</div>
+	<!-- block Header (start) -->
+	<header>
+		<div class="container">
+			<div class="row dontTouchMe">
+				<div class="col-12 col-xl-6 text-center text-xl-left">
+					<a href="#" class="d-none d-md-inline"><img src="./img/icons/world-white.svg">Languages</a>
+					<a href="#">EN</a>
+					<a href="#">ES</a>
+					<a href="#" class="d-none d-md-inline"><img src="./img/icons/share-white.svg">Our social</a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-linkedin-in"></i></a>
+					<a href="#"><i class="fab fa-pinterest-p"></i></a>
+				</div>
+				<div class="col-12 col-xl-6 text-center text-xl-right">
+					<a href="#"><img src="./img/icons/star-white.svg">Treatments</a>
+					<a href="#"><img src="./img/icons/pin-white.svg">Contact us</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- block Header (end) -->	
 
-<!--End of video, now go with cherryProjects -->
+	
+	<!-- block Logo (start) -->
+	<div id="logo">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<a href="/">
+						<img src="./img/logo.png">
+					</a> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- block Logo (end) -->
 
-<div class="cherryProjects">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col cherryHead">
-        <h3>Upcoming Events</h3>
-        <h2>Together we can help!</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-4 cherryBlocks cherryBlock1">
-        <div class="cherryBody">
-          <a href="moreNeed.html" class="cherryTitle">3 Reasons Why You Should Protect Wildlife</a>
-          <p class="cherryDesc">The African elephant is the largest animal walking the Earth. Their herds wander through 37…</p>
-        </div>
-      </div>
-      <div class="col-4 cherryBlocks cherryBlock2">
-        <div class="cherryBody">
-          <a href="moreNeed.html" class="cherryTitle">More Plants Needed</a>
-          <p class="cherryDesc">The African elephant is the largest animal walking the Earth. Their herds wander through 37…</p>
-        </div>
-      </div>
-      <div class="col-4 cherryBlocks cherryBlock3">
-        <div class="cherryBody">
-          <a href="moreNeed.html" class="cherryTitle">Oceans</a>
-          <p class="cherryDesc">The African elephant is the largest animal walking the Earth. Their herds wander through 37…</p>
-        </div>
-      </div>
-      <div class="col-4 cherryBlocks cherryBlock4">
-        <div class="cherryBody">
-          <a href="moreNeed.html" class="cherryTitle">Save African Elephants</a>
-          <p class="cherryDesc">The African elephant is the largest animal walking the Earth. Their herds wander through 37…</p>
-        </div>
-      </div>
-      <div class="col-4 cherryBlocks cherryBlock5">
-        <div class="cherryBody">
-          <a href="moreNeed.html" class="cherryTitle">Stop Syria's Hunger</a>
-          <p class="cherryDesc">The African elephant is the largest animal walking the Earth. Their herds wander through 37…</p>
-        </div>
-      </div>
-      <div class="col-4 cherryBlocks cherryBlock6">
-        <div class="cherryBody">
-          <a href="moreNeed.html" class="cherryTitle">Wildlife</a>
-          <p class="cherryDesc">The African elephant is the largest animal walking the Earth. Their herds wander through 37…</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--Begin the most interesting info -->
-<div class="mostIntrs">
-  <div class="case2">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h4 class="videoTitle">The Most Interesting Info</h4>
-          <h5 class="videoDesc">News &amp; blogs about protecting our planet! </h5>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <div class="whiteCase">
-            <img src="img/blog1-1-370x275.jpg" alt="">
-            <a href="news.html"><h3>Ecological underdogs vital to defense of coastlines</h3></a>
-            <p class="dateTime">10 Aug 2016</p>
-          </div>
-        </div>
-        <div class="col-4">
-          <div class="whiteCase">
-            <img src="img/blog2-1-370x275.jpg" alt="">
-            <a href="news.html"><h3>New images of endangered Bengal tigers in Bhutan</h3></a>
-            <p class="dateTime">10 Aug 2016</p>
-          </div>
-        </div>
-        <div class="col-4">
-          <div class="whiteCase">
-            <img src="img/blog3-1-370x275.jpg" alt="">
-            <a href="news.html"><h3>In Short Supply: Everyday Essentials</h3></a>
-            <p class="dateTime">10 Aug 2016</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--Now with the subscribe part-->
-<div class="subImg">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <h2>Subscribe Us</h2>
-        <form>
-          <input type="text" placeholder="Enter your email">
-          <br>
-          <input type="submit" value= "Subscribe">
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- footer -->
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <div class="footerInfo">
-        <img src="./img/footer-logo.png">
-        <p>Address: <span>4578 Marmora Road, Glasgow, D04 89GR</span></p>
-        <p>Phones: <a href="#">(800) 123-0045;</a> <a href="#">(800) 123-0046</a></p>
-        <p>We are open: <span>Mn-Fr: 10 am-8 pm</span></p>
-        <p>E-mail: <a href="#" class="footerEmail">info@demolink.org</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <div class="footerIcons">
-        <a href=""><i class="fab fa-facebook-f"></i></a>
-        <a href=""><i class="fab fa-twitter"></i></a>
-        <a href=""><i class="fab fa-google-plus-g"></i></a>
-        <a href=""><i class="fab fa-linkedin-in"></i></a>
-        <a href=""><i class="fab fa-pinterest"></i></a>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <div class="footerRights">
-        <p>2018 © Lovethyneighbor. All Rights Reserved.</p>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div id="btnGoForward" style="display: none;">
-  <i class="fas fa-chevron-up"></i>
-</div>
+	<!-- block Nav (start) -->
+	<nav class="dontTouchMe">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<img src="./img/icons/icon-menu.svg" class="d-block d-xl-none" id="btnMobiMenu"> 
+					<ul class="menu d-none d-xl-block">
+						<li> <!-- dropdown HOME (start) -->
+							<a href="/" class="link">Home</a>
+							<ul class="sub-menu">
+								<li><a href="/">Home 1</a></li>
+								<li><a href="#">Home 2</a></li>
+								<li><a href="#">Home 3</a></li>					
+								<li class="itemNew"><a href="#">Home 4</a></li>					
+								<li class="itemNew"><a href="#">Home 5</a></li>
+								<li><a href="#">Coming soon</a></li>														
+							</ul>
+						</li> <!-- dropdown HOME (end) -->
+						<li> <!-- dropdown ABOUT US (start) -->
+							<a href="/about.html" class="link">About us</a>
+							<ul class="sub-menu">
+								<li><a href="/about.html">About us</a></li>
+								<li><a href="#">Faq</a></li>
+								<li><a href="#">Membership Card</a></li>
+								<li class="itemBest"><a href="/treatments.html">Treatments</a></li>
+							</ul>
+						</li> <!-- dropdown ABOUT US (end) -->
+						<li> <!-- dropdown TREATMENTS (start) -->
+							<a href="/treatments.html" class="link">Treatments</a>
+							<ul class="sub-menu">
+								<li><a href="/treatments.html">Archive</a></li>
+								<li><a href="#">Single Treatment</a></li>
+								<li class="itemHot"><a href="/booking.html">Booking</a></li>
+								<li class="itemNew"><a href="/gallery.html">Gallery</a></li>
+								<li><a href="#">Membership Card</a></li>
+								<li><a href="/prices.html">Prices</a></li>
+							</ul>
+						</li> <!-- dropdown TREATMENTS (end) -->
+						<li><a href="/services.html" class="link">Services</a></li> 
+						<li><a href="/prices.html" class="link">Prices</a></li>
+						<li> <!-- dropdown PAGES (start) -->
+							<a href="#" class="link">Pages</a>
+							<ul class="sub-menu">
+								<li><a href="/about.html">About Us</a></li>
+								<li class="itemNew"><a href="#">Faq</a></li>
+								<li><a href="#">Membership Card</a></li>
+								<li><a href="/gallery.html">Gallery</a></li>
+								<li><a href="#">Product</a></li>
+								<li><a href="/prices.html">Prices</a></li>
+								<li><a href="/services.html">Services</a></li>
+								<li class="itemHot"><a href="/treatments.html">Treatments</a></li>
+								<li class="itemNew"><a href="#">Coming Soon</a></li>
+								<li><a href="/contact.html">Contact</a></li>
+								<li><a href="/booking.html">Booking</a></li>
+							</ul>
+						</li> <!-- dropdown PAGES (end) -->
+						<li> <!-- dropdown SHOP (start) -->
+							<a href="/shopMain.html" class="link">Shop</a>
+							<ul class="sub-menu">
+								<li class="menu-item-has-children"> <!-- dropdown SHOP > PRODUCTS (start) -->
+									<a href="/shopMain.html">Products</a>
+									<ul class="sub-menu">
+										<li><a href="#">Full Width</a></li>
+										<li><a href="#">Right Sidebar</a></li>
+										<li><a href="#">Left Sidebar</a></li>
+									</ul>
+								</li> <!-- dropdown SHOP > PRODUCTS (end) -->
+								<li><a href="/shopItemView.html">Single Product</a></li>
+								<li><a href="#">Cart</a></li>
+								<li><a href="#">Checkout</a></li>
+							</ul>
+						</li> <!-- dropdown SHOP (end) -->
+						<li> <!-- dropdown BLOG (start) -->
+							<a href="#" class="link">Blog</a>
+							<ul class="sub-menu">
+								<li class="itemBest"><a href="#">Blog Masonry</a></li>
+								<li class="menu-item-has-children"> <!-- dropdown BLOG > BLOG MASONRY (start) -->
+									<a href="#">Blog Standard</a>
+									<ul class="sub-menu">
+										<li><a href="#">Right Sidebar</a></li>
+										<li><a href="#">Left Sidebar</a></li>
+									</ul>
+								</li> <!-- dropdown BLOG > BLOG MASONRY (end) -->
+								<li class="menu-item-has-children"> <!-- dropdown BLOG > SINGLE POST (start) -->
+									<a href="#">Single Post</a>
+									<ul class="sub-menu">
+										<li><a href="#">Right Sidebar</a></li>
+										<li><a href="#">Left Sidebar</a></li>
+										<li><a href="#">Full Width</a></li>
+									</ul>
+								</li> <!-- dropdown BLOG > SINGLE POST (end) -->
+							</ul>
+						</li> <!-- dropdown BLOG (end) -->
+						<li> <!-- dropdown CONTACT US (start) -->
+							<a href="/contact.html" class="btnContact">Contact us</a>
+							<ul class="sub-menu">
+								<li><a href="/contact.html">Contact 1</a></li>
+								<li><a href="#">Contact 2</a></li>
+								<li class="itemNew"><a href="/booking.html">Booking</a></li>
+							</ul>
+						</li> <!-- dropdown CONTACT US (end) -->
+					</ul>
+				</div> <!-- end! col -->
+			</div> <!-- end! row -->
+		</div> <!-- end! container -->
+		<img src="./img/icons/search.png" id="btnMenuSearch" class="d-none d-xl-block" data-toggle="modal" data-target="#modalSearch">		
+	</nav>
+	<!-- block Nav (start) -->
 
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <!-- my script -->
-    <script src="/js/main.js"></script>
-  </body>
+
+<!-- HEADEAR ///////////////////////////////////////////////// -->
+
+
+	<!-- block mainSlider (start) -->
+	<input id="count" value="0" class="d-none">
+	<div id="mainSlider" class="dontTouchMe">
+		<div class="shadow">
+			<div id="mainSliderPrev">
+				<i class="fas fa-chevron-left"></i>
+			</div>
+			<div id="mainSliderNext">
+				<i class="fas fa-chevron-right"></i>
+			</div>
+
+			<div id="mainSliderShow">
+				<!-- js -->
+			</div>
+
+		</div>
+	</div>
+	<!-- block mainSlider (end) -->
+	
+
+
+
+	<!-- block spaLinks (start) -->
+	<div id="spaLinks">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-4">
+					<div class="spaLinkBlock spaLinkBlock1">
+						<div class="spaLinkShadows">
+							<a href="#">Massages</a>
+						</div>
+					</div>
+				</div> <!-- 1 -->
+				<div class="col-12 col-md-4">
+					<div class="spaLinkBlock spaLinkBlock2">
+						<div class="spaLinkShadows">
+							<a href="#">Therapies</a>
+						</div>
+					</div>
+				</div> <!-- 2 -->
+				<div class="col-12 col-md-4">
+					<div class="spaLinkBlock spaLinkBlock3">
+						<div class="spaLinkShadows">
+							<a href="#">Relaxation</a>
+						</div>
+					</div>
+				</div> <!-- 3 -->
+			</div>
+		</div>
+	</div>
+	<!-- block spaLinks (end) -->
+
+
+	<!-- block spaServices (start) -->
+	<div id="spaServices">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h4 class ="mainPageText1">services</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<h1 class="mainPageText2">The Best For You</h1>
+				</div>
+			</div>
+			<div class="spaServicesBlockImg">
+				<div class="row">
+					<div class="col-4 col-sm-2">
+						<img src="./img/service-1.png">
+						<h3>MATT EFFECT</h3>
+					</div>
+					<div class="col-4 col-sm-2">
+							<img src="./img/service-2.png">
+							<h3>SAUNA READY</h3>
+					</div>
+					<div class="col-4 col-sm-2">
+							<img src="./img/service-3.png">
+							<h3>RELAX ZONES</h3>
+					</div>
+					<div class="col-4 col-sm-2">
+							<img src="./img/service-4.png">
+							<h3>NATURAL MASK</h3>
+					</div>
+					<div class="col-4 col-sm-2">
+							<img src="./img/service-5.png">
+							<h3>HAIR AREA</h3>
+					</div>
+					<div class="col-4 col-sm-2">
+							<img src="./img/service-6.png">
+							<h3>AROMO TERAPY</h3>
+					</div>
+				</div>
+			</div>
+			<div class="spaServicesFormsBlock">
+				<div class="row">
+					<div class="col-12 col-lg-5 col-xl-4 spaServicesTime align-self-start">	
+						<h5 class="mainPageText5">Time table</h5>
+						<h2 class="mainText3">Working Hours</h2>
+						<p class="mainPageOrdinaryText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<table>
+							<tr class="firstDay">
+								<td class="workDays">MON - FRI :</td>
+								<td class="workTime text-right">8:00 - 17:00</td>
+							</tr>
+							<tr>
+								<td class="workDays">SUNDAY :</td>
+								<td class="workTime text-right">CLOSED</td>
+							</tr>
+						</table>
+					</div>
+					<div class="col-12 col-lg-2 col-xl-4"></div>
+					<div class="col-12 col-lg-5 col-xl-4 spaServicesForm align-self-end">
+						<form action="">
+							<input type="text" placeholder="Name" >
+							<input type="text" placeholder="Surname" >
+							<br>
+							<input type="email" placeholder="Email" >
+							<input type="text" placeholder="Subject" >
+							<br>
+							<textarea rows="5" placeholder="Message"></textarea>
+							<br>
+							<input type="submit" value="SEND NOW">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- block spaServices (end) -->
+
+	
+	<!-- block feedbackSlider (start) -->
+	<div id="feedbackSlider">
+		<div class="shadow">
+			
+			<div class="container">
+				<div class="row">
+					<div class="col">
+
+						<div id="feedbackSliderItems">
+
+							<div id="feedbackSliderShow">
+
+								<div class="feedbackSlide feedbackSlide1 animated fadeInUp">
+									<h1>Mandy Smith</h1>
+									<p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT DONEC AT LIGULA IN LIGULA ULTRICES VULPUTATE AT AC SAPIEN IN JUSTO NEQUE, MALESUADA A LIBERO ET</p>
+									<img src="./img/signature.png">
+								</div>
+
+								<div class="feedbackSlide feedbackSlide2 animated fadeInUp" style="display:none;">
+									<h1>John Doe</h1>
+									<p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT DONEC AT LIGULA IN LIGULA ULTRICES VULPUTATE AT AC SAPIEN IN JUSTO NEQUE, MALESUADA A LIBERO ET</p>
+									<img src="./img/signature.png">
+								</div>
+
+							</div>
+
+							<ul class="feedbackSliderNav dontTouchMe">
+								<li class="feedbackGoSlide1 active"></li>
+								<li class="feedbackGoSlide2"></li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- block feedbackSlider (end) -->	
+
+
+	<!-- block spa img and video (start) -->
+	<div id="spaImgVideo">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<div class="spaLinkBlock spaLinkBlock1">
+						<a href="#" data-toggle="modal" data-target="#modalVideo"><img src="./img/icons/icon-play.png" alt=""></a>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6">
+					<div class="row">
+						<div class="col-12">
+							<div class="spaLinkBlock spaLinkBlock2">
+								<div class="spaLinkShadows">
+									<a href="#">Therapies</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+
+					<div class="row">
+						<div class="col-6">
+							<div class="spaLinkBlock spaLinkBlock3">
+								<div class="spaLinkShadows">
+									<a href="#">Relax</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-6">
+							<div class="spaLinkBlock spaLinkBlock4">
+								<div class="spaLinkShadows">
+									<a href="#">Beauty</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+	<!-- block spa img and video (end) -->
+
+
+	<!-- block services (start) -->
+	<div id="blockServices">
+		<div class="container">
+
+			<div class="row"> <!-- block title (start) -->
+				<div class="col blockTitle">
+					<h4>services</h4>
+					<h1>The Best For You</h1>
+				</div>
+			</div> <!-- block title (end) -->
+
+			<div class="row">
+				<div class="col-12 col-md-6" id="itemBlockServices1">
+					<!-- template items -->
+					<!-- <div class="itemBlockServies">
+						<div class="procLine"></div>						
+						<div class="procName"><p>Oil massages</p></div>
+						<div class="procPrice"><p>$ 50,80</p></div> 
+						<div class="procDesc"><p>Lorem ipsum dolor sit amet</p></div> 
+						<div class="procTagNew1 dontTouchMe"><p>New</p></div>
+							OR
+						<div class="procTagNew2 dontTouchMe"><p>New</p></div>
+							OR
+						<div class="procTag dontTouchMe"><p>1 Hour</p></div> 								 						
+					</div> -->
+
+					<!-- js -->
+				</div>
+				<div class="col-12 col-md-6" id="itemBlockServices2">
+					<!-- js -->
+				</div>
+			</div>
+
+		</div> <!-- end! container -->
+	</div>
+	<!-- block services (end) -->
+	
+
+	<!-- block img with 68 off (start) -->
+	<div id="spaSaleImg">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1 class="mainTextWhite">68% OFF</h1>
+					<p class="whitePText">Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Tenetur nostrum praesentium iusto ipsum doloribus.</p>
+					<a href="#" class="primaryBtn">Read More</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- block img with 68 off (end) -->
+
+
+	<!-- block shop best products (start) -->
+	<div id="spaBestProducts">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h4 class="mainPageText1">shop</h4>
+					<h1 class="mainPageText2">Best Products</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-4">
+					<img src="./img/shop-6.jpg" alt="">
+					<h2 class="mainText3">Honey Mask 100 cl</h2>
+					<h3>$ 13.80</h3>
+				</div>
+				<div class="col-12 col-sm-4">
+					<img src="./img/shop-5.jpg" alt="">
+					<h2 class="mainText3">Hands Natural Cream</h2>
+					<h3 class="specialPrice">$ 25.50</h3>
+				</div>
+				<div class="col-12 col-sm-4">
+					<img src="./img/shop-4.jpg" alt="">
+					<h2 class="mainText3">Hair Limon Balsam</h2>
+					<h3>$ 50.00</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- block shop best products (end) -->
+	
+	
+	<!-- block with statistics (start) -->
+	<div id="spaStatistics">
+		<div class="statisticShadow">
+			<div class="container">
+				<div class="row">
+				<div class="col-6 col-sm-3">
+					<h2>12</h2>
+					<h3>SPECIALISTS</h3>
+				</div>
+				<div class="col-6 col-sm-3">
+					<h2>82</h2>
+					<h3>CUSTOMERS</h3>
+				</div>
+				<div class="col-6 col-sm-3">
+					<h2>62</h2>
+					<h3>TREATMENTS</h3>
+				</div>
+				<div class="col-6 col-sm-3">
+					<h2>18</h2>
+					<h3>YEARS OF EXPERIENCE</h3>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- block with statistics (end) -->
+
+
+	<!-- block with latest news (start) -->
+	<div id="spaLatestNews">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h4 class="mainPageText1">BLOG</h4>
+					<h1 class="mainPageText2">Latest News</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-7">
+					<div class="spaLinkBlock spaLinkBlock1">
+						<div class="spaLinkShadows">
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-5">
+					<div class="lotOfTextNews">
+						<h5 class="mainPageText5">News</h5>
+						<h2 class="mainText3">New Oil Treatments Available</h2>
+						<h4>24 January</h4>
+						<p class="mainPageOrdinaryText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br> egestas magna at porttitor vehicula nullam augue.</p>
+						<a href="#" class="primaryBtn">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-5">
+					<div class="lotOfTextNews">
+						<h5 class="mainPageText5" id="blueText">Relax</h5>
+						<h2 class="mainText3">New Site Available</h2>
+						<h4>5 January</h4>
+						<p class="mainPageOrdinaryText">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.
+						Aenean egestas magna at porttitor <br> vehicula nullam augue.</p>
+						<a href="#" class="primaryBtn blueBtn">Read More</a>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-7">
+					<div class="spaLinkBlock spaLinkBlock2">
+						<div class="spaLinkShadows">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- block with latest news (end) -->
+
+
+	<!-- block Contact (start) -->
+	<div id="blockContact">
+		<div class="shadow">
+			
+			<div class="container">
+				<div class="row">
+
+					<div class="col-12 col-xl-3">
+						<div class="formContact">
+							<h1>Newsletter</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at porttitor vehicula nullam augue.</p>
+							<form>
+								<input type="email" placeholder="Email">
+								<input type="submit" value="SUBSCRIBE">
+							</form>
+						</div>
+					</div>
+
+					<div class="col-12 col-xl-9">
+						<div class="row">
+
+
+						<div class="col-12 col-xl-3"></div> <!-- enter -->
+
+						<div class="col-12 col-sm-4 col-xl-3">
+							<div class="itemContact">
+								<h1>Our office</h1>
+								<p>New York Boulevard 123</p>
+								<img src="./img/icons/service-7.png">
+								<a href="#">View map</a>
+							</div>
+						</div>
+
+						<div class="col-12 col-sm-4 col-xl-3">
+							<div class="itemContact">
+								<h1>Drop a line</h1>
+								<p>beauty@pack.com</p>
+								<img src="./img/icons/service-8.png">
+								<a href="#">Mail us</a>
+							</div>
+						</div>
+
+						<div class="col-12 col-sm-4 col-xl-3">
+							<div class="itemContact">
+								<h1>Our phone</h1>
+								<p>+ 202 555 0116</p>
+								<img src="./img/icons/service-9.png">
+								<a href="#">Call us</a>
+							</div>
+						</div>
+
+
+						</div> <!-- end! row -->
+					</div>
+
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- block Contact (end) -->
+	
+	
+	
+	<!-- block with something about and products (start) -->
+	<div id="spaBottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-4">
+					<h3>About Us</h3>
+					<img src="./img/focus-4.jpg" alt="">
+					<p class="mainPageOrdinaryText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at porttitor vehicula nullam augue Lorem ipsum
+					dolor sit amet.</p>
+				</div>
+				<div class="col-12 col-lg-4">
+					<h3>Latest Products</h3>
+
+					<div class="products">
+						<img src="./img/shop-1-180x180.jpg">
+						<div class="description">
+							<h2>Honey Mask 100 cl</h2>
+							<h4>$13.80</h4>
+						</div>
+					</div>
+
+					<div class="products">
+						<img src="./img/shop-2-180x180.jpg" alt="">
+						<div class="description">
+							<h2>Honey Mask 100 cl</h2>
+							<h4>$13.80</h4>
+						</div>
+					</div>
+					
+					<div class="products">
+						<img src="./img/shop-3-180x180.jpg" alt="">
+						<div class="description">
+							<h2>Honey Mask 100 cl</h2>
+							<h4>$13.80</h4>
+						</div>
+					</div>
+
+
+				</div>
+				<div class="col-12 col-lg-4">
+					<h3>Best Products</h3>
+					<div class="products">
+						<img src="./img/shop-1-180x180.jpg">
+						<div class="description">
+							<h2>Honey Mask 100 cl</h2>
+							<h4>$13.80</h4>
+						</div>
+					</div>
+					
+					<div class="products">
+						<img src="./img/shop-2-180x180.jpg" alt="">
+						<div class="description">
+							<h2>Honey Mask 100 cl</h2>
+							<h4>$13.80</h4>
+						</div>
+					</div>
+					
+					<div class="products">
+						<img src="./img/shop-3-180x180.jpg" alt="">
+						<div class="description">
+							<h2>Honey Mask 100 cl</h2>
+							<h4>$13.80</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- block with something about and products (start) -->
+	
+
+	<!-- modal Video >>  (start) -->
+	<div class="modal fade bd-example-modal-lg" id="modalVideo" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div id="blockVideo" class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<iframe src="https://www.youtube.com/embed/lZrvODa1nQw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+	<!-- modal Video >>  (end) -->
+
+
+
+<!-- FOOTER //////////////////////////////////////////////////////////// -->
+
+
+
+	<!-- block Footer (start) -->
+	<footer class="dontTouchMe">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-6 text-center text-lg-left">
+					<p>© Copyright 2018. by annablgkv</p>
+				</div>
+				<div class="col-12 col-lg-6 text-center text-lg-right">
+					<a href="#"><i class="fab fa-twitter"></i><span class="d-none d-md-inline">twitter</span></a>
+					<a href="#"><i class="fab fa-instagram"></i><span class="d-none d-md-inline">instagram</span></a>					
+					<a href="#"><i class="fab fa-facebook-f"></i><span class="d-none d-md-inline">facebook</span></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- block Footer (end) -->	
+
+
+	<!-- modal Nav >> Search (start) -->
+	<div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div id="blockSearch" class="modal-content">
+				<form>
+					<input type="text" placeholder="Keyword">
+					<input type="submit" value="Search">
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- modal Nav >> Search (end) -->	
+	
+
+	<!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!-- parallax.js -->
+	<script src="./js/parallax.min.js"></script>
+	<!-- main script -->
+	<script src="./js/main.js"></script>	
+</body>
 </html>
