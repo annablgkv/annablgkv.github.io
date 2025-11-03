@@ -1,1 +1,0 @@
-import{P as e,f as t,w as n,y as r}from"./index-BNRf2kdY.js";var i={};function a(t,i){return n(),r(`div`,null,e(` `))}var o=t(i,[[`render`,a]]);export{o as default};
